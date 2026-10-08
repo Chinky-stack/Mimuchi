@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#173e35">
+    <meta name="description" content="Laundry, home cleaning, barbering, and mobile money services, all in one convenient neighborhood stop.">
+    <title>Mimuchi’s | Everyday services, done right</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Mimuchi’s home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>Mimuchi’s<small>YOUR NEIGHBORHOOD SERVICE HUB</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+        <nav id="primary-nav" class="nav-links" aria-label="Main navigation">
+          <a href="#services">Our services</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#about">About us</a>
+          <a class="nav-cta" href="#booking">Book a service <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> GOOD CARE. RIGHT AROUND THE CORNER.</p>
+            <h1>Your day,<br>made <span>lighter.</span></h1>
+            <p class="hero-intro">From fresh laundry and a tidy home to a clean cut and everyday mobile money, get more done in one friendly place.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#services">Explore our services <span aria-hidden="true">→</span></a>
+              <a class="text-link" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-note"><span class="note-icon" aria-hidden="true">✳</span><span>Thoughtful service. No fuss. Every time.</span></div>
+          </div>
+          <div class="hero-art" aria-label="Illustration of neighborhood services">
+            <div class="art-sun"></div>
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="art-card card-laundry">
+              <span class="card-icon laundry-icon" aria-hidden="true">✳</span>
+              <span><strong>Fresh laundry</strong><small>Folded just right</small></span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="art-card card-barber">
+              <span class="card-icon barber-icon" aria-hidden="true">✂</span>
+              <span><strong>Sharp cuts</strong><small>Your style, your way</small></span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="art-card card-money">
+              <span class="card-icon money-icon" aria-hidden="true">↗</span>
+              <span><strong>Mobile money</strong><small>Easy everyday access</small></span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="art-stamp"><span>YOUR<br>LOCAL<br>GO-TO</span><span class="stamp-star">✳</span></div>
+            <span class="art-caption">Good things happen<br>when life runs smoothly.</span>
+          </div>
+        </div>
+        <div class="container service-ribbon" aria-label="Services available">
+          <span>LAUNDRY & DRY CLEANING</span><i></i><span>HOME CLEANING</span><i></i><span>BARBERING</span><i></i><span>MOBILE MONEY</span>
+        </div>
+      </section>
+
+      <section class="section services-section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <div><p class="eyebrow">A LITTLE HELP GOES A LONG WAY</p><h2>One stop. <span>Four ways</span><br>to make life easier.</h2></div>
+            <p>Pick what you need today. Our team is here to take good care of the rest.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card service-laundry">
+              <div class="service-top"><span class="service-icon" aria-hidden="true">✳</span><span class="service-number">01 / 04</span></div>
+              <h3>Laundry &<br>dry cleaning</h3>
+              <p>Wash, dry, fold, and care for the pieces you love. Drop off or ask about collection.</p>
+              <a class="card-link" href="#booking" data-prefill="Laundry & dry cleaning">Book laundry <span aria-hidden="true">↗</span></a>
+              <span class="card-decoration" aria-hidden="true">✳</span>
+            </article>
+            <article class="service-card service-cleaning">
+              <div class="service-top"><span class="service-icon" aria-hidden="true">⌂</span><span class="service-number">02 / 04</span></div>
+              <h3>Home<br>cleaning</h3>
+              <p>A comfortable, sparkling space without the stress. Tell us what needs a little care.</p>
+              <a class="card-link" href="#booking" data-prefill="Home cleaning">Book a clean <span aria-hidden="true">↗</span></a>
+              <span class="card-decoration" aria-hidden="true">✳</span>
+            </article>
+            <article class="service-card service-barber">
+              <div class="service-top"><span class="service-icon" aria-hidden="true">✂</span><span class="service-number">03 / 04</span></div>
+              <h3>Barbering</h3>
+              <p>Good conversation, a skilled hand, and a cut that feels like you. Come in and get sharp.</p>
+              <a class="card-link" href="#booking" data-prefill="Barbering">Book a barber <span aria-hidden="true">↗</span></a>
+              <span class="card-decoration" aria-hidden="true">✳</span>
+            </article>
+            <article class="service-card service-money">
+              <div class="service-top"><span class="service-icon" aria-hidden="true">↗</span><span class="service-number">04 / 04</span></div>
+              <h3>Mobile<br>money</h3>
+              <p>Convenient agent services for everyday transactions. Stop by and our team will help.</p>
+              <a class="card-link" href="#booking" data-prefill="Mobile money">Ask about mobile money <span aria-hidden="true">↗</span></a>
+              <span class="card-decoration" aria-hidden="true">✳</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-section" id="how-it-works">
+        <div class="container how-grid">
+          <div class="how-intro">
+            <p class="eyebrow">SIMPLE AS IT SHOULD BE</p>
+            <h2>More time for<br><span>your kind of day.</span></h2>
+            <p>Getting a little help shouldn’t feel like another thing on your to-do list. We keep it easy from hello to all done.</p>
+            <a class="button button-light" href="#booking">Make a request <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="steps">
+            <article class="step"><span class="step-num">01</span><div><h3>Choose what you need</h3><p>Pick a service and tell us a little about what you have in mind.</p></div><span class="step-mark" aria-hidden="true">＋</span></article>
+            <article class="step"><span class="step-num">02</span><div><h3>Send us a request</h3><p>Share your preferred day and how we can reach you. We’ll confirm the details.</p></div><span class="step-mark" aria-hidden="true">↗</span></article>
+            <article class="step"><span class="step-num">03</span><div><h3>Leave the rest to us</h3><p>Our team will get in touch to make a plan that works for you.</p></div><span class="step-mark" aria-hidden="true">✳</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section" id="about">
+        <div class="container about-grid">
+          <div class="about-visual">
+            <div class="about-shape shape-back"></div><div class="about-shape shape-front"></div>
+            <div class="about-message"><span>GOOD SERVICE<br>IS A GOOD<br>NEIGHBOR.</span><i aria-hidden="true">✳</i></div>
+            <span class="about-caption">Here for the everyday stuff.</span>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">YOUR LOCAL GO-TO</p>
+            <h2>Good people.<br><span>Good care.</span></h2>
+            <p>We bring useful everyday services together, so you can spend less time juggling errands and more time doing what matters to you.</p>
+            <p>Whether it’s your weekly wash, a fresh fade, or help with a mobile money transaction, expect a warm welcome and care in every detail.</p>
+            <a class="text-link" href="#booking">Come say hello <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-section" id="booking">
+        <div class="container booking-grid">
+          <div class="booking-copy">
+            <p class="eyebrow">LET’S GET YOU SORTED</p>
+            <h2>What can we<br><span>help with?</span></h2>
+            <p>Send a request and we’ll follow up to confirm availability and the details. No payment is collected through this form.</p>
+            <div class="booking-assurance"><span aria-hidden="true">✳</span><span>Just a request, not a confirmed booking. Our team will be in touch.</span></div>
+          </div>
+          <form class="booking-form" id="booking-form">
+            <div class="form-row">
+              <label>Your name<input name="name" type="text" autocomplete="name" placeholder="e.g. Alex Mensah" required maxlength="80"></label>
+              <label>Phone number<input name="phone" type="tel" autocomplete="tel" placeholder="Best number to reach you" required maxlength="32"></label>
+            </div>
+            <div class="form-row">
+              <label>Service
+                <select name="service" required>
+                  <option value="" disabled selected>Choose a service</option>
+                  <option>Laundry & dry cleaning</option>
+                  <option>Home cleaning</option>
+                  <option>Barbering</option>
+                  <option>Mobile money</option>
+                </select>
+              </label>
+              <label>Preferred date<input name="date" type="date" required></label>
+            </div>
+            <label>A few details <span class="optional">(optional)</span><textarea name="details" rows="3" placeholder="Anything you'd like us to know?" maxlength="500"></textarea></label>
+            <button class="button button-primary submit-button" type="submit">Send service request <span aria-hidden="true">→</span></button>
+            <p class="form-note">Your request is saved in this browser until the business contact details are connected.</p>
+            <div class="form-result" id="form-result" role="status" aria-live="polite" hidden></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <a class="brand footer-brand" href="#home" aria-label="Mimuchi’s home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>Mimuchi’s<small>YOUR NEIGHBORHOOD SERVICE HUB</small></span>
+        </a>
+        <p>Everyday care, all in one place.<br>We look forward to seeing you.</p>
+        <div class="footer-links"><a href="#services">Services</a><a href="#about">About us</a><a href="#booking">Make a request</a></div>
+      </div>
+      <div class="container footer-bottom"><span>© <span id="year"></span> Mimuchi’s. All rights reserved.</span><a href="#home">Back to top ↑</a></div>
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
